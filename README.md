@@ -1,12 +1,15 @@
 # LEAP-MOTION-CSS-GAME
 This prototype shows the usage of CSS and LEAPJs in creating 3D Games.
 
-[Watch Gameplay](youtube)
+![Snapshot](/vlcsnap-2015-02-02-12h54m00s28.png)
+
+[Watch Gameplay](https://www.youtube.com/watch?v=wbkaR7wousk)
 
 In this Game, I'm using
---* Leap motion Device and LeapJs to steer the jet plane.
---* CSS 3D transforms to draw the city with everything in it.
---* Javascript to set the game in motion
+
++ Leap motion Device and LeapJs to steer the jet plane.
++ CSS 3D transforms to draw the city with everything in it.
++ Javascript to set the game in motion
 
 The buildings, plane and other 3d objects are HTML DOM elements transformed using CSS3.The day-night rotation is implemented with CSS transitions (Although CSS animations can be used for the same).
       CSS is not meant for creating serious 3D games as there are Performance issues(even after using GPU) , Browser Support Issues and its limitations in creating 3D graphics.
@@ -30,13 +33,19 @@ There are many examples across the web like [EXAMPLES].  and this Game version t
 
 Useful Links for further reading:
 
-1.[WebGL vs CSS 3D Transforms](http://blog.teamtreehouse.com/3d-in-the-browser-webgl-versus-css-3d-transforms)
+1. [WebGL vs CSS 3D Transforms](http://blog.teamtreehouse.com/3d-in-the-browser-webgl-versus-css-3d-transforms)
+
 2. [CSS3](http://css3.bradshawenterprises.com/transforms/  | Desandro's Intro : http://desandro.github.io/3dtransforms/)
+
 3. [Leap Motion](http://leapmotion.com/  | LeapJs: https://developer.leapmotion.com/leapjs/getting-started) 
+
 4. [Web Audio API](http://www.html5rocks.com/en/tutorials/webaudio/intro/) 
+
 5. [TRIDIV](http://www.tridiv.com) 
-6.[HTML5 Canvas](http://diveintohtml5.info/canvas.html) 
+
+6. [HTML5 Canvas](http://diveintohtml5.info/canvas.html) 
+
 7.Other EXAMPLES
---1 .Keith Clark's http://keithclark.co.uk/articles/creating-3d-worlds-with-html-and-css/
---2.Michael Bromley's : http://www.michaelbromley.co.uk/blog/298/building-a-3d-game-with-css-html
---3.Others : http://www.freshdesignweb.com/html5-css3-3d-examples-demo.html
+- [Keith Clark's](http://keithclark.co.uk/articles/creating-3d-worlds-with-html-and-css/)
+- [Michael Bromley's](http://www.michaelbromley.co.uk/blog/298/building-a-3d-game-with-css-html)
+- [Others](http://www.freshdesignweb.com/html5-css3-3d-examples-demo.html)
